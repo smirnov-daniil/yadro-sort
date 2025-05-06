@@ -138,7 +138,7 @@ TEST_CASE("Negative and positive mix", "[tape_sorter][negpos]") {
   REQUIRE(v == expect);
 }
 
-TEST_CASE("Large input (stress small random)", "[tape_sorter][stress]") { // +- 5 minutes with 1 1 1 1 delays
+TEST_CASE("Large input (stress small random)", "[tape_sorter][stress]") {
   std::filesystem::remove_all("tmp");
   std::filesystem::create_directories("tmp");
   constexpr auto N = 1000;

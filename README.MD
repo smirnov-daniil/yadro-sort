@@ -9,4 +9,4 @@ cmake -S . -B build
 ```
 cmake --build build --target all
 ```
-Собирает одновременно и тесты и само решение.
+Собирает одновременно тесты (`./build/tests`) и само решение (`./build/yadro_sort`).
